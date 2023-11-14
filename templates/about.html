@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>ABOUT</title>
+</head>
+<body>
+    <header>
+        <h1>TENTANG MATERI</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('groups') }}">Nama Kelompok</a></li>
+            <li><a href="{{ url_for('about') }}">Tentang Materi</a></li>
+        </ul>
+    </nav>
+    <section>
+        <center><h2>CLOUD COMPUTING</h2></center>
+        Di materi pembuatan web profile ini, Kita diarahkan untuk mengeksekusi HTML dan CSS sebagai Front-end Web, dan penyambungan route
+        menggunakan python agar dapat menjalankan web secara dinamis. Metode penyambungan route ini berupa Flask yang penggunaannya
+        menggunakan python. Selain itu, kita harus menyambungkan web profile kita dengan database Microsoft Azure. Untuk rule yang 
+        diperlukan seperti dibawah:
+
+        <p>1. Pembuatan web profile dengan HTML dan CSS</p>
+        <p>2. Penyambungan dan pengeditan code HTML untuk terhubung ke flask</p>
+        <p>3. Pembuatan file app.py untuk code route html</p>
+        <p>4. Penyambungan database ke Platform Microsoft Azure</p>
+    </section>
+</body>
+</html>

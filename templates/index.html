@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>HOME</title>
+</head>
+<body style="background-image: url('bg/gambar1.jpg'); background-size: cover;">
+    <header>
+        <h1>PENJELASAN CLOUD COMPUTING</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('groups') }}">Nama Kelompok</a></li>
+            <li><a href="{{ url_for('about') }}">Tentang Kelompok</a></li>
+        </ul>
+    </nav>
+    <section>
+        <center><h2>CLOUD COMPUTING</h2></center>
+        <center>Cloud computing adalah metode penyampaian layanan melalui internet yang memungkinkan akses mudah ke berbagai sumber daya, termasuk server, aplikasi, dan penyimpanan data. Ini melibatkan penggunaan teknologi komputer dan pengembangan berbasis internet untuk menyediakan layanan komputasi yang fleksibel dan dapat diakses dari mana saja. Dengan cloud computing, pengguna dapat mengakses dan menggunakan sumber daya IT tanpa perlu memiliki infrastruktur fisik sendiri.
+
+        Secara sederhana, cloud computing memungkinkan organisasi atau individu menyewa atau menggunakan sumber daya komputasi seperti layanan server, penyimpanan data, dan perangkat lunak melalui internet. Ini memberikan keuntungan dalam hal skalabilitas, efisiensi biaya, dan aksesibilitas.</center>
+    </section>
+</body>
+</html>
